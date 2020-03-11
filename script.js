@@ -59,6 +59,10 @@ addNew = () => {
     newTotal();
   };
   newTotal();
+  
+  //Reset input boxes ready for next user input
+  input_name.value = "";
+  input_calories.value = "";
 };
 
 //UPDATE TOTAL
