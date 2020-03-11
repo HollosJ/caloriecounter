@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calorie Counter</title>
+    <link rel="stylesheet" href="main.css" />
+    <script src="script.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div id="container">
+      <div id="header">
+        <h1>Calorie Counter</h1>
+      </div>
+      <div id="table-container">
+        <div id="addNew">
+          <input
+            type="text"
+            name="food_name"
+            id="food_name"
+            placeholder="Name of Food"
+          />
+          <input
+            type="number"
+            name="calories"
+            id="calories"
+            placeholder="Calories"
+          />
+          <div id="addBtn"><i class="fas fa-plus-circle"></i></div>
+        </div>
+        <table id="myTable">
+          <tr>
+            <th>Name</th>
+            <th>Calories</th>
+            <th>Delete?</th>
+          </tr>
+        </table>
+
+        <div id="end">
+          <span id="total">0</span>
+          <span id="reset"><i class="fas fa-redo"></i></span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
